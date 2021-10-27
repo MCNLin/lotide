@@ -7,9 +7,6 @@ const assertEqual = function(actual, expected) {
 
 };
 
-assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true)
-
-//function eqArrays(a,b) { return !!a && !!b && !(a<b || b<a); }
 function eqArrays(a, b) {
   if(a.length !== b.length) {
     return false;
