@@ -1,5 +1,5 @@
 const eqArrays = function(a, b) {
-  console.log('first param:', a, 'second param', b)
+  console.log('first param:', a, 'second param', b);
   if (a.length !== b.length) {
     return false;
   } for (let i = 0; i < a.length; i++) {
@@ -28,9 +28,9 @@ const middle = (array) => {
     return [array[Math.floor(array.length / 2)]];
   }
 };
-assertArrayEquals(middle([1])) // => []
-assertArrayEquals(middle([1, 2])) // => []
-assertArrayEquals(middle([1, 2, 3])) // => [2]
-assertArrayEquals(middle([1, 2, 3, 4, 5])) // => [3]
-assertArrayEquals(middle([1, 2, 3, 4])) // => [2, 3]
-assertArrayEquals(middle([1, 2, 3, 4, 5, 6])) // => [3, 4]
+assertArrayEquals(middle([1])); // => []
+assertArrayEquals(middle([1, 2])); // => []
+assertArrayEquals(middle([1, 2, 3])); // => [2]
+assertArrayEquals(middle([1, 2, 3, 4, 5])); // => [3]
+assertArrayEquals(middle([1, 2, 3, 4])); // => [2, 3]
+assertArrayEquals(middle([1, 2, 3, 4, 5, 6])); // => [3, 4]
