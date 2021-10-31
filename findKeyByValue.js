@@ -8,19 +8,13 @@ const assertEqual = function(actual, expected) {
 };
 
 const findKeyByValue = function(object, value) {
-  for (const key in object) { 
-    if (object[key] === value)
-      return key;
+  const genre = Object.keys(object);
+  for (let element of genre) {
+    if (object[element] === value) {
+      return element;
+   }
   }
 };
-// const findKeyByValue = function(object, value) {
-//   const genre = Object.keys(object);
-//   for (let element of genre) {
-//     if (object[element] === value) {
-//       return element;
-//    }
-//   }
-// };
 const bestTVShowsByGenre = {
   sci_fi: "The Expanse",
   comedy: "Brooklyn Nine-Nine",
