@@ -1,6 +1,17 @@
 const middle = require('../middle');
 const assertArrayEquals =require('../assertArraysEqual');
 
+
+
+
+
+
+
+
+
+
+
+
 assertArrayEquals(middle([1]), []);
 assertArrayEquals(middle([1,2]), []);
 assertArrayEquals(middle([1,2,3]), [2]);
