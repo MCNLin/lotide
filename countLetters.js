@@ -21,3 +21,4 @@ const countLetters = function(str){
   return result; //return result { h: 1, a: 1, p: 2, y: 1 }
 }
 console.log(countLetters("happy"));
+module.exports = countLetters;

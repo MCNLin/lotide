@@ -32,3 +32,5 @@ console.log(results1);
 
 assertArrayEquals(map( words, word => word[0]), [ 'g', 'c', 't', 'm', 't' ]);
 assertArrayEquals(map([2, 4, 6], num => num - 1), [2, 4, 5]);
+
+module.exports = map;
